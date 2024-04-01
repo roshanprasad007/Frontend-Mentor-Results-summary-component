@@ -50,7 +50,7 @@ body {
   color: hsl(222, 100%, 96%);
   font-size: 2.5rem;
   padding-top: 6rem;
-  margin-bottom: 2rem;
+
   font-weight: 800;
 }
 .number-circle-container {
@@ -99,12 +99,13 @@ body {
 }
 .summary-component {
   width: 50%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   padding-left: 5rem;
   padding-right: 4.5rem;
   border-radius: 0px 20px 20px 0px;
-  margin: 0 auto;
+
   background-color: #fff;
   margin-left: -12px;
   box-shadow: 10px 0px 13px 0px rgba(51, 51, 51, 0.2);
@@ -112,8 +113,8 @@ body {
   -moz-box-shadow: 10px 0px 13px 0px rgba(51, 51, 51, 0.2);
 }
 .summary-heading {
-  padding-top: 10rem;
-  font-size: 2rem;
+  padding-top: 7rem;
+  font-size: 2.5rem;
   font-weight: 900;
   margin-bottom: 3.5rem;
   color: hsla(224, 30%, 27%, 0.868);
