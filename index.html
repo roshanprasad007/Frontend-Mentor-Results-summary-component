@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <section>
+      <main class="result-summary-component">
+        <div class="result-component">
+          <h1 class="result--title">Your Result</h1>
+          <div class="number-circle-container">
+            <h3 class="large--number">76</h3>
+            <h3 class="small--number">of 100</h3>
+          </div>
+          <div class="result-summary">
+            <h3 class="great">Great</h3>
+            <p class="result-summary">
+              You scored higher than 65% of<br />
+              the people who have taken<br />
+              these tests.
+            </p>
+          </div>
+        </div>
+        <div class="summary-component">
+          <h1 class="summary-heading">Summary</h1>
+          <div class="summary-reaction">
+            <div class="result-actions col--red">
+              <div class="first--action actions">
+                <img
+                  src="assets/images/icon-reaction.svg"
+                  alt="Reaction image"
+                  class="img"
+                />
+                <span class="action--name text--red">Reaction</span>
+              </div>
+              <div class="scored">
+                <span class="bold--text">80</span><span>&nbsp;/100</span>
+              </div>
+            </div>
+            <div class="result-actions col--yellow">
+              <div class="first--action actions">
+                <img
+                  src="assets/images/icon-memory.svg"
+                  alt="Memory image"
+                  class="img"
+                />
+                <span class="action--name text-yellow">Memory</span>
+              </div>
+              <div class="scored">
+                <span class="bold--text">92</span><span>&nbsp;/100</span>
+              </div>
+            </div>
+            <div class="result-actions col--teal">
+              <div class="first--action actions">
+                <img
+                  src="assets/images/icon-verbal.svg"
+                  alt="Reaction"
+                  class="img"
+                />
+                <span class="action--name text--teal">Verbal</span>
+              </div>
+              <div class="scored">
+                <span class="bold--text">61</span><span>&nbsp;/100</span>
+              </div>
+            </div>
+            <div class="result-actions col--blue">
+              <div class="first--action actions">
+                <img
+                  src="assets/images/icon-visual.svg"
+                  alt="Reaction"
+                  class="img"
+                />
+                <span class="action--name text--blue">Visual</span>
+              </div>
+              <div class="scored">
+                <span class="bold--text">72</span><span>&nbsp;/100</span>
+              </div>
+            </div>
+          </div>
+          <button class="btn">Continue</button>
+        </div>
+      </main>
+    </section>
+  </body>
+</html>
